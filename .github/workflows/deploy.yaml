@@ -25,5 +25,5 @@ jobs:
           environment_name: Dockerenv-env
           existing_bucket_name: elasticbeanstalk-us-west-2-967094323372
           region: us-west-2
-          version_label: ${{ github.sh }}
+          version_label: "${{ github.sh }}"
           deployment_package: deploy.zip
